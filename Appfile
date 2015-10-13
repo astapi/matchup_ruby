@@ -1,0 +1,8 @@
+application {
+    name = "test-app"
+    type = "ruby"
+
+    dependency {
+        source = "github.com/tamai/otto-mysql"
+    }
+}

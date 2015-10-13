@@ -1,0 +1,26 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: dev
+  pool: 5
+  username: root
+  pass: password
+  host: 172.16.1.243
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: test
+  pool: 5
+  user: root
+  password: password
+  host: 172.16.1.243
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: production
+  pool: 5
+  user: root
+  password: password
+  host: 172.16.1.243
